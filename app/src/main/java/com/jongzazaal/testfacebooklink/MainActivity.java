@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 //                Uri uri = Uri.parse("https://www.facebook.com");
 //                startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                //uiuiui
             }
         });
 
