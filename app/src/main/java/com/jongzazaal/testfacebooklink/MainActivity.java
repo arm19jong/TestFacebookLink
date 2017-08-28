@@ -27,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(Intent.ACTION_VIEW, uri));
                 //uiuiui
                 //dsfsdf
+                //asaasasdf
                 Intent i = new Intent(MainActivity.this, com.jongzazaal.myapplication.MainActivity.class);
                 startActivity(i);
+                //sdfsdfsdv
             }
         });
 
