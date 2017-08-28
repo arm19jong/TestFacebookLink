@@ -22,11 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
                 Uri uri = Uri.parse("https://www.facebook.com/");
                 Intent intent = new Intent(Intent.ACTION_VIEW,uri);
-                startActivity(intent);
+//                startActivity(intent);
 //                Uri uri = Uri.parse("https://www.facebook.com");
 //                startActivity(new Intent(Intent.ACTION_VIEW, uri));
                 //uiuiui
                 //dsfsdf
+                Intent i = new Intent(MainActivity.this, com.jongzazaal.myapplication.MainActivity.class);
+                startActivity(i);
             }
         });
 
