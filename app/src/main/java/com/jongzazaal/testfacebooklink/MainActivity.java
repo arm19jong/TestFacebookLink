@@ -19,9 +19,10 @@ public class MainActivity extends AppCompatActivity {
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //dtrdrdtr
 
                 Uri uri = Uri.parse("https://www.facebook.com/");
-                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                Intent intent = new Intent(Intent.ACTION_VIEW,uri);//ghyghjghj
 //                startActivity(intent);
 //                Uri uri = Uri.parse("https://www.facebook.com");
 //                startActivity(new Intent(Intent.ACTION_VIEW, uri));
